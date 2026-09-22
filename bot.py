@@ -47,10 +47,10 @@ async def start_quest(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await query.edit_message_text(
         "поехали 🤍\n\n"
-        "первое\n\n"
+        "первое...\n\n"
         "самое простое пока что\n\n"
-        "твое любимое число\n\n"
-        "введи только цифру"
+        "твое любимое число?"
+        "введи только цифру😇"
     )
 
 
@@ -64,7 +64,7 @@ async def angel_hint(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
 
     await query.message.reply_text(
-        "подсказочка тут\n\n"
+        "подсказочка тут😎\n\n"
         "4ngel\n\n"
         "shh..."
         "shh..."
@@ -90,19 +90,19 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             await update.message.reply_text(
                 "✅ умничка\n\n"
-                "не расслабляй батоны\n\n"
-                "второе\n\n"
+                "не расслабляй батоны😘\n\n"
+                "второе...\n\n"
                 "тебе понадобится наш чат\n\n"
-                "найди соо 21 сентября в 13:23\n\n"
-                "там кое что заметишь странное\n"
-                "пиши сюда без пробелов"
+                "найди соо 21 сентября в 13:23"
+                "там кое что заметишь странное"
+                "пиши сюда без пробелов😇"
             )
 
         else:
 
             await update.message.reply_text(
                 "чивооо \n"
-                "попробуй еще раз."
+                "попробуй еще раз🥺"
             )
 
     # ЗАДАНИЕ 2
@@ -116,12 +116,12 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             await update.message.reply_text(
                 "✅ молодец\n\n"
-                "запомни 1313\n\n"
+                "запомни 1️⃣3️⃣1️⃣3️⃣\n\n"
                 "нееекст\n\n"
-                "трейтье\n\n"
-                "заходи в инсту\n\n"
+                "трейтье...\n\n"
+                "заходи в инсту"
                 "посмотри на последнее фото"
-                "выкладывал которое недавно\n\n"
+                "выкладывал которое недавно🤪"
                 "нужна только дата\n"
                 "напиши ее в формате ДД.ММ."
             )
@@ -129,7 +129,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
         else:
 
             await update.message.reply_text(
-                "шото нето\n\n"
+                "шото нето🥺\n\n"
                 "внимательнее смотри 21 сентября в 13:23"
             )
 
@@ -159,7 +159,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text(
                 "✅ лучшая\n\n"
                 "ластовая осталась\n\n"
-                "четвертое\n\n"
+                "четвертое...\n\n"
                 "я тот кто смотрит с небес но моя первая буква не буква\n\n"
                 "shh...\n\n"
                 "shh...\n\n"
@@ -174,7 +174,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             await update.message.reply_text(
                 "нето\n\n"
-                "там всего две фотки бож ну емае"
+                "там всего две фотки бож ну емае🥺"
             )
 
     # ЗАДАНИЕ 4
@@ -186,8 +186,8 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             await update.message.reply_text(
                 "✅ в точку родная\n\n"
-                "это 4\n\n"
-                "теперь все вместе из 10 цифр:\n\n"
+                "это 4️⃣\n\n"
+                "теперь все вместе из 🔟 цифр:\n\n"
                 "7\n"
                 "1313\n"
                 "1809\n"
@@ -203,7 +203,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "чето нето совсем\n\n"
                 "замени первую букву на цифру ANGEL "
                 "на самую похожую цифру\n\n"
-                "ну чтож такое"
+                "ну чтож такое🥺"
             )
 
     # ФИНАЛЬНЫЙ КОД
@@ -229,10 +229,10 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "все собрала крутецкая самая\n\n"
                 "и что получилось?\n\n"
                 "7131318094\n\n"
-                "но это не пароль\n"
-                "это адрес следующей части\n\n"
+                "но это не пароль🤭\n"
+                "это адрес следующей части🤯\n\n"
                 "найди юз с этими цифрами в тт\n\n"
-                "допишии перед числом sdr и там будет ава с альбомом года тебе туда",
+                "допишии перед числом sdr и там будет ава с альбомом года тебе туда🤫",
                 reply_markup=InlineKeyboardMarkup(keyboard)
             )
 
@@ -240,7 +240,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             await update.message.reply_text(
                 "ну ка еще разок\n\n"
-                "ты сможешь "
+                "ты сможешь🥺"
                 "десятизначное число."
             )
 
