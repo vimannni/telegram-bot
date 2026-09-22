@@ -50,7 +50,7 @@ async def start_quest(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "первое...\n\n"
         "самое простое пока что\n\n"
         "твое любимое число?\n"
-        "введи только цифру😇"
+        "введи только цифру😇\n"
     )
 
 
